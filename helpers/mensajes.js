@@ -1,10 +1,14 @@
+// //esta es una forma de como hacerlo manual 
+// //pero con la libreria inquirer se puedo hacer mas facil
+
 const { rejects } = require("assert");
 const { resolve } = require("path");
+
 
 require("colors");
 
 const mostrarMenu = () => {
-  //esto es una primesa que devolvera un objecto
+//   //esto es una primesa que devolvera un objecto
   return new Promise((resolve) => {
     console.clear();
     console.log("=============================".green);
